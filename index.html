@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./public/style.css">
+    <title>Lawyer</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="header-contact mt-2">
+                <div class="logo-contact">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f  mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-google-plus-g mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-vimeo-v mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest-p mx-2"></i>
+                    </a>
+                </div>
+
+                <div class="info-contact">
+                    <div class="info-contact-phone ">
+                        <a href="#">
+                            <i class="fa-solid fa-phone mx-2"></i>
+                        </a>
+                        <a href="#">
+                            <p>
+                                (800) 123-0045 (800) 123-0045
+                            </p>
+                        </a>
+                    </div>
+                    <div class="info-contact-time">
+                        <a href="#">
+                            <i class="fa-solid fa-clock mx-2"></i>
+                        </a>
+                        <p>
+                            Mn-Fr: 10 am-8 pm
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-logo mt-5">
+                <div class="logo-header text-center">
+                    <img src="./public/images/logo-191x51.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+
+                <div class="collapse navbar-collapse " id="main_nav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown" id="myDropdown">
+                            <a style="color: black; font-weight: 700" class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown"> HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li> <a class="dropdown-item dropdown-toggle" href="#" ata-bs-toggle="dropdown">
+                                        Headers </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Headers Default</a></li>
+                                        <li><a class="dropdown-item" href="#">Headers Modern</a></li>
+                                        <li><a class="dropdown-item" href="#">Headers Minimals</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li> <a class="dropdown-item dropdown-toggle" href="#"> Footers</a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Footers Corporate</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Corporate Light</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Minimals</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        <li class="nav-item"><a style="color: black; font-weight: 700" class="nav-link" href="#">ABOUT
+                                US </a></li>
+                        <li class="nav-item"> <a style="color: black; font-weight: 700" class="nav-link"
+                                href="#">CONTACT </a> </li>
+                        <a style="color: black; font-weight: 700" class="nav-link dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown"> PAGE
+                        </a>
+                        <ul style="width: 100%; height:200px" class="dropdown-menu">
+                            <div class="row">
+                                <div style="border-right: 1px solid #000" class="col-lg-3 px-5  box-nav">
+                                    <h1 class="mt-2">General</h1>
+                                    <p class="mt-5 box-nav-text">About us</p>
+                                    <p class="mt-1 box-nav-text">Our team</p>
+                                    <p class="mt-1 box-nav-text">Team Member Profile</p>
+                                    <p class="mt-1 box-nav-text">Single practice</p>
+                                    <p class="mt-1 box-nav-text">Typography</p>
+                                </div>
+                                <div style="border-right: 1px solid #000" class="col-lg-3 px-5 box-nav">
+                                    <h1 class="mt-2 box-nav-text">General</h1>
+                                    <p class="mt-5  box-nav-text">About us</p>
+                                    <p class="mt-1 box-nav-text">Our team</p>
+                                    <p class="mt-1 box-nav-text">Team Member Profile</p>
+                                    <p class="mt-1 box-nav-text">Single practice</p>
+                                    <p class="mt-1 box-nav-text">Typography</p>
+                                </div>
+                                <div style="border-right: 1px solid #000" class="col-lg-3 px-5 box-nav">
+                                    <h1 class="mt-2 box-nav-text">General</h1>
+                                    <p class="mt-5 box-nav-text ">About us</p>
+                                    <p class="mt-1 box-nav-text">Our team</p>
+                                    <p class="mt-1 box-nav-text">Team Member Profile</p>
+                                    <p class="mt-1 box-nav-text">Single practice</p>
+                                    <p class="mt-1 box-nav-text">Typography</p>
+                                </div>
+                                <div class="col-lg-3 px-5 box-nav">
+                                    <h1 class="mt-2 box-nav-text">General</h1>
+                                    <p class="mt-5 box-nav-text ">About us</p>
+                                    <p class="mt-1 box-nav-text">Our team</p>
+                                    <p class="mt-1 box-nav-text">Team Member Profile</p>
+                                    <p class="mt-1 box-nav-text">Single practice</p>
+                                    <p class="mt-1 box-nav-text">Typography</p>
+                                </div>
+                            </div>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="color: #000; font-weight: 700" class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRACTICES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Single Practices</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="color: #000; font-weight: 700" class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                WON CASE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Single Case</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a style="color: #000; font-weight: 700" class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                NEWS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item dropdown-toggle" href="#">Single Case</a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Footers Corporate</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Corporate Light</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Minimals</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item dropdown-toggle" href="#">Single Case</a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Footers Corporate</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Corporate Light</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Minimals</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item dropdown-toggle" href="#">Single Case</a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Footers Corporate</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Corporate Light</a></li>
+                                        <li><a class="dropdown-item" href="#">Footers Minimals</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- SLIDER -->
+    <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="info-lawyer position-relative">
+                    <img src="./public/images/slider-1-slide-1-1920x980.jpg" class="d-block w-100" alt="...">
+                    <div class="job">Professional Lawyer</div>
+                    <div class="name">Jerry Robinson</div>
+                    <button class="more">More Info</button>
+                    <div class="more-info-boxs">
+                        <div class="row text-center">
+                            <div class="more-info-box">
+
+                            <div class="col-xl-3 box-text">
+                                <h1>450+</h1>
+                                <span>Trusting Clients</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>$14.5 mln.</h1>
+                                <span>Won in Settlements</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>98%</h1>
+                                <span>Cases Won</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>25</h1>
+                                <span>Awards Won</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="info-lawyer position-relative">
+                    <img src="./public/images/slider-1-slide-3-1920x980.jpg" class="d-block w-100" alt="...">
+                    <div class="job">Professional Lawyer</div>
+                    <div class="name">Jerry Robinson</div>
+                    <div class="more-info-boxs">
+                        <div class="row text-center">
+                            <div class="more-info-box">
+
+                            <div class="col-xl-3 box-text">
+                                <h1>450+</h1>
+                                <span>Trusting Clients</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>$14.5 mln.</h1>
+                                <span>Won in Settlements</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>98%</h1>
+                                <span>Cases Won</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>25</h1>
+                                <span>Awards Won</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="info-lawyer position-relative">
+                    <img src="./public/images/slider-1-slide-2-1920x980.jpg" class="d-block w-100" alt="...">
+                    <div style="font-size: 36px; left: 29%" class="job job3">We're Always Available for Customers with</div>
+                    <div style="font-size: 30px;top: 20%; left: 39%" class="name name3">Emergent Lawyer Problems</div>
+                    <div class="via">You can easily reach us 24/7 via the phone number below:</div>
+                    <div class="phone-info">Tel <span>1.555.123.2323</span></div>
+                    <div class="more-info-boxs">
+                        <div class="row text-center">
+                            <div class="more-info-box">
+
+                            <div class="col-xl-3 box-text">
+                                <h1>450+123</h1>
+                                <span>Trusting Clients</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>$14.5 mln.</h1>
+                                <span>Won in Settlements</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>98%</h1>
+                                <span>Cases Won</span>
+                            </div>
+                            <div class="col-xl-3 box-text">
+                                <h1>25</h1>
+                                <span>Awards Won</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="welcome pb-5">
+        <div class="container text-center">
+            <div class="line"></div>
+            <div class="wel-title mt-3">
+                Welcome to Jerry Robinson's Law office
+            </div>
+            <p class="wel-text mt-3">We're proud that our law firm offers top-notch legal services for a nationwide
+                affordable pricing!
+
+                With us you'll never feel like the lawyers are just robbers in suits, besides, we win 98% of all cases.
+                So with us, your chances of winning are as high as they possibly can be!</p>
+        </div>
+    </div>
+    <div class="why-us pt-5">
+        <div class="container">
+            <div class="why-us-text">
+                <div class="line"></div>
+                <div class="why-title mt-3 text-center">
+                    Why Hiring Us is Always a Winning Move?
+                </div>
+            </div>
+            <div class="why-us-box">
+                <div class="row mt-5 text-center why-us-row">
+                    <div class="col-lg-3">
+                        <div class="why-content">
+                            <i class="fa-solid fa-scale-balanced icon-law"></i>
+                            <div class="why-box-title mt-3">Any Litigation</div>
+                            <div class="why-box-text mt-4">
+                                It's very hard to name a civil litigation field where our expertise is absent. Starting
+                                with
+                                Labor & Employment laws, insurance & personal injuries fields for helping the
+                                individuals
+                                and finishing with the real estate law, divorce and child custody laws, we have it all
+                                covered...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-content">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div class="why-box-title mt-3">Winning Streak</div>
+                            <div class="why-box-text mt-4">
+                                Our track record is higher than that of the best MLB pitchers! We've got an amazing
+                                percentgae of won cases, with the mark standing now at over 99%... But these kinds of
+                                results were made possible only thanks to our due diligence, timely efforts and an
+                                incredible range of legal wit!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-content">
+                            <i class="fa-solid fa-hourglass-end"></i>
+                            <div class="why-box-title mt-3">Timely Work</div>
+                            <div class="why-box-text mt-4">
+                                Working with a lot of civil litigation allows us to make some considerable timing
+                                shortcuts. That means that while we never compromise for an attention to case's details,
+                                we also never waste your time idly! Winning ahead of the schedule is our signature move!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="why-content">
+                            <i class="fa-solid fa-thumbs-up"></i>
+
+                            <div class="why-box-title mt-3">Affordable Help</div>
+                            <div class="why-box-text mt-4">
+                                On par with such a client-friendly pace of work, we also have another uncompromised
+                                advantage - namely, our reasonable pricing! Keeping in mind that most of our clients are
+                                individuals and not businesses - we keep our fees low!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-legal mt-5">
+        <div class="container">
+            <div class="legal-head">
+                <div class="line"></div>
+                <div class="legal-title text-center mb-5 mt-4">
+                    Our Legal Practice Areas:
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="legal-box">
+                            <div class="legal-number">01.</div>
+                            <div class="legal-mini-title">Labor & Employment Law</div>
+                            <div class="legal-mini-text">We'll be glad to deal with any kind of employment litigation
+                                issues, such as unlawful termination, wage hack or discrimination of any kind, which you
+                                might have encountered at your workplace...</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="legal-box">
+                            <div class="legal-number">02.</div>
+                            <div class="legal-mini-title">Labor & Employment Law</div>
+                            <div class="legal-mini-text">We'll be glad to deal with any kind of employment litigation
+                                issues, such as unlawful termination, wage hack or discrimination of any kind, which you
+                                might have encountered at your workplace...</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="legal-box">
+                            <div class="legal-number">03.</div>
+                            <div class="legal-mini-title">Labor & Employment Law</div>
+                            <div class="legal-mini-text">We'll be glad to deal with any kind of employment litigation
+                                issues, such as unlawful termination, wage hack or discrimination of any kind, which you
+                                might have encountered at your workplace...</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-lg-4">
+                        <div class="legal-box">
+                            <div class="legal-number">04.</div>
+                            <div class="legal-mini-title">Labor & Employment Law</div>
+                            <div class="legal-mini-text">We'll be glad to deal with any kind of employment litigation
+                                issues, such as unlawful termination, wage hack or discrimination of any kind, which you
+                                might have encountered at your workplace...</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="legal-box">
+                            <div class="legal-number">05.</div>
+                            <div class="legal-mini-title">Labor & Employment Law</div>
+                            <div class="legal-mini-text">We'll be glad to deal with any kind of employment litigation
+                                issues, such as unlawful termination, wage hack or discrimination of any kind, which you
+                                might have encountered at your workplace...</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="legal-box">
+                            <div class="legal-number">06.</div>
+                            <div class="legal-mini-title">Labor & Employment Law</div>
+                            <div class="legal-mini-text">We'll be glad to deal with any kind of employment litigation
+                                issues, such as unlawful termination, wage hack or discrimination of any kind, which you
+                                might have encountered at your workplace...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sign-up ">
+        <div class="container text-center">
+
+            <div style="background-color: #fff" class="line"></div>
+            <div class="sign-up-title">
+                <p>
+                    Sign Up for Your
+                </p>
+                <span>
+                    FREE Legal Consultation
+                </span>
+            </div>
+            <button class="btn-sign-up">BOOK AN APPOINTMENT</button>
+        </div>
+    </div>
+    <div class="our-legal mt-5">
+        <div class="container">
+            <div class="legal-head">
+                <div class="line"></div>
+                <div class="legal-title text-center mb-5 mt-4">
+                    <h1 style="font-size: 42px; font-weight: 600;">See the Testimonials That Our Clients</h1>
+                    <h2 style="font-size: 42px; font-weight: 600;">Have Submitted So Far:</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="client-box">
+                            <img src="./public/images/testimonials-1-120x120.jpg" alt="">
+                            <div class="client-text">
+                                <p class="mb-3">As the one who recently suffered from the FELA (Federal Employers’
+                                    Liability Act
+                                    Claims) related issues, I’ve been desperate to find a firm who could have won my
+                                    case… Then I found these guys! Finally, 3 months later the truth and the law
+                                    prevailed, all thanks to this firm’s lawyers diligence!</p>
+                                <h1>-Daniela Williams</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="client-box">
+                            <img src="./public/images/testimonials-2-120x120.jpg" alt="">
+                            <div class="client-text">
+                                <p class="mb-3">Business litigation has always been what our competitors were using to
+                                    suppress us…
+                                    But as soon as we’ve hired this law firm, which by the way had fees 5 times lower
+                                    than the one our competitors paid to their lawyers, we finally had all the disputes
+                                    resolved in our favor!</p>
+                                <h1>-Gary Growles</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="client-box">
+                            <img src="./public/images/testimonials-3-120x120.jpg" alt="">
+                            <div class="client-text">
+                                <p class="mb-3">Some time ago our company has gone through a very harsh merger &
+                                    acquisition process,
+                                    which left us felt questioning our business partners. But thanks to this law firm,
+                                    we were finally able los rem is to resolve our situation and take our company back!
+                                </p>
+                                <h1>-Walter Cronkate</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="our-client mt-5">
+        <div class="container">
+            <div class="legal-head">
+                <div class="line"></div>
+                <div class="legal-title text-center mb-5 mt-4">
+                    <h1 style="font-size: 42px; font-weight: 600;">Some Of Our Clients</h1>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-2 text-center">
+                        <div class="brand">
+                            <img src="./public/images/brand-1-128x111.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="brand">
+                            <img src="./public/images/brand-2-129x102.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="brand">
+                            <img src="./public/images/brand-3-143x110.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="brand">
+                            <img src="./public/images/brand-4-129x86.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="brand">
+                            <img src="./public/images/brand-5-142x102.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 text-center">
+                        <div class="brand">
+                            <img src="./public/images/brand-6-134x122.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="winning">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="win-content">
+                        <div class="line mx-0"></div>
+                        <h1>
+                            Winning is easier than you think...
+                        </h1>
+                        <p>
+                            Watch this video, where dozens of our former clients tell, how desperate they were to win
+                            their respective case and how slim their chances seemed... before hiring us as their
+                            lawyers! That's right, our law firm has the highest wins ratio percentage among all other
+                            Houston, Texas legal practices. With us, there's just no other way but to win!
+                        </p>
+                        <button>OUR CASE</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="video-win">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="feature">
+        <div class="container">
+            <div class="feature-head">
+                <div class="line"></div>
+                <div class="legal-title text-center mb-5 mt-5">
+                    <h1 style="font-size: 42px; font-weight: 600;">Featured News</h1>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 ">
+                        <div class="feature-box">
+                            <img src="./public/images/post-classic-2-418x315.jpg" alt="">
+                            <h1>Can you be fined with $1600 for missing a license plate decal?</h1>
+                            <div class="feature-box-text">
+                                <p>Jan.20, 2016</p>
+                                <span> by Adam Smith</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-box">
+                            <img src="./public/images/post-classic-1-418x315.jpg" alt="">
+                            <h1>2016 Texas Employment Law Update</h1>
+                            <div class="feature-box-text">
+                                <p>Jan.20, 2016</p>
+                                <span> by Adam Smith</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature-box">
+                            <img src="./public/images/post-classic-3-418x315.jpg" alt="">
+                            <h1>What the federal legal consequences of Florida's shooting wlll be?</h1>
+                            <div class="feature-box-text">
+                                <p>Jan.20, 2016</p>
+                                <span> by Adam Smith</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="distinctive ">
+        <div class="container">
+            <div class="distinctive-head">
+                <div class="line"></div>
+                <div class="legal-title text-center mb-5 mt-5">
+                    <h1 style="font-size: 42px; font-weight: 600; color: #fff">Distinctive Recognition</h1>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="distinctive-box">
+                            <img src="./public/images/brand-7-134x139.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="distinctive-box">
+                            <img src="./public/images/brand-8-162x83.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="distinctive-box">
+                            <img src="./public/images/brand-9-257x133.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="distinctive-box">
+                            <img src="./public/images/brand-10-115x116.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="distinctive-box">
+                            <img src="./public/images/brand-11-265x62.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="service-about">
+                        <h1>About</h1>
+                        <p>Founded by a few seasoned New England lawyers back in 1999, today their small Law firm leads
+                            the race among other local firms in a percentage of cases won...But that kind of success
+                            comes in only when you input a lot of hard work, dedication, and excellent expertise in what
+                            you do...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="lawyer-service">
+                        <h1>Our Services</h1>
+                        <div class="lawyer-service-text">
+                            <p style="padding-top:0px !important">Labor & Employment Law</p>
+                            <p>Real Estate Law</p>
+                            <p>Personal Injury</p>
+                            <p>Business litigation & arbitratio</p>
+                            <p>Insurance Law</p>
+                            <p>Mergers & Acquisitions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="lawyer-comments">
+                        <h1>Recent Comments</h1>
+                        <div class="lawyer-comments-text">
+                            <div style="padding-top: 0px" class="lawyer-comments-text-1">
+                                <span>Jourdan Saint-Yves on</span>
+                                <p>How Couples Decide To Divorce</p>
+                            </div>
+                            <div class="lawyer-comments-text-1">
+                                <span>Adam Smith on</span>
+                                <p>How Couples Decide To Divorce</p>
+                            </div>
+                            <div class="lawyer-comments-text-1">
+                                <span>Adam Smith on</span>
+                                <p>What the federal legal consequences of Florida’s shooting wlll be? </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="lawyer-contact">
+                        <h1>Contacts</h1>
+                        <div class="lawyer-contact-text">
+                            <p style="padding-top: 8px">Address 4578 Marmora Road, Glasgow, D04 89GR</p>
+                            <p>Phones : <span>(800) 123-0045</span>; <span> (800) 123-0045</span></p>
+                            <p>E-mail: <span>info@demolink.org</span></p>
+                            <p>We are open Mn-Fr: 10 am-8 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+
+            <div class="footer-box">
+                <div class="footer-box-logo">
+                    <img src="./public/images/logo-inverse-191x51.png" alt="">
+                </div>
+                <div class="footer-box-text">
+                    Lawyer© 2022. All rights reserved.
+                </div>
+                <div class="footer-box-icon">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f  mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-google-plus-g mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-vimeo-v mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube mx-2"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest-p mx-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+
+            document.querySelectorAll('.dropdown-menu').forEach(function (element) {
+                element.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                });
+            })
+            if (window.innerWidth < 992) {
+                document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {
+                    everydropdown.addEventListener('hidden.bs.dropdown', function () {
+                        // after dropdown is hidden, then find all submenus
+                        this.querySelectorAll('.submenu').forEach(function (everysubmenu) {
+                            // hide every submenu as well
+                            everysubmenu.style.display = 'none';
+                        });
+                    })
+                });
+                document.querySelectorAll('.dropdown-menu a').forEach(function (element) {
+                    element.addEventListener('click', function (e) {
+
+                        let nextEl = this.nextElementSibling;
+                        if (nextEl && nextEl.classList.contains('submenu')) {
+                            // prevent opening link if link needs to open dropdown
+                            e.preventDefault();
+                            console.log(nextEl);
+                            if (nextEl.style.display == 'block') {
+                                nextEl.style.display = 'none';
+                            } else {
+                                nextEl.style.display = 'block';
+                            }
+
+                        }
+                    });
+                })
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
